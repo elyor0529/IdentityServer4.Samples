@@ -39,7 +39,7 @@ namespace AspNetCoreAuthentication
                 PostLogoutRedirectUri = "http://localhost:3308/",
                 ClientId = "mvc",
                 ClientSecret = "secret",
-                ResponseType = "code id_token",
+                ResponseType = "id_token",
                 GetClaimsFromUserInfoEndpoint = true,
                 SaveTokens = true
             };

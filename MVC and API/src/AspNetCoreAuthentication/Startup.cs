@@ -34,7 +34,7 @@ namespace AspNetCoreAuthentication
                 AuthenticationScheme = "oidc",
                 SignInScheme = "Cookies",
 
-                Authority = "http://localhost:5000",
+                Authority = "http://localhost:8080/auth/realms/dotnetdemo",
                 RequireHttpsMetadata = false,
                 PostLogoutRedirectUri = "http://localhost:3308/",
                 ClientId = "mvc",
